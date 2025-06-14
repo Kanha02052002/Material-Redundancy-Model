@@ -1,16 +1,15 @@
 """
 DOCUMENTATION -
-1. Fuzzywuzzy -> https://pypi.org/project/fuzzywuzzy/
-2. Pandas -> https://pandas.pydata.org/docs/
-3. Numpy -> https://numpy.org/doc/stable/index.html
-4. Dataclasses -> https://docs.python.org/3/library/dataclasses.html
-5. Matplotlib
-6. Seaborn
-7. Plotly
-8. Scikit-Learn ->
-9. Torch ->
+1. Fuzzywuzzy       -> https://pypi.org/project/fuzzywuzzy/
+2. Pandas           -> https://pandas.pydata.org/docs/
+3. Numpy            -> https://numpy.org/doc/stable/index.html
+4. Dataclasses      -> https://docs.python.org/3/library/dataclasses.html
+5. Matplotlib       -> https://matplotlib.org/stable/index.html
+6. Seaborn          -> https://seaborn.pydata.org/
+7. Plotly           -> https://plotly.com/python/
+8. Scikit-Learn     -> https://scikit-learn.org/stable/
+9. Torch            -> https://docs.pytorch.org/docs/stable/index.html
 10. Torch-Geometirc -> https://pytorch-geometric.readthedocs.io/en/latest/  [for Graph Neural Network]
-
 """
 
 import pandas as pd
@@ -1109,7 +1108,7 @@ def save_multi_approach_results(output_df: pd.DataFrame, report: Dict[str, Any],
 def main():
     """Main function for multi-approach material grouping."""
     
-    input_file = "900-sample.csv"
+    input_file = "sample.csv"    # replace the original csv dataset here
     
     try:
         df = pd.read_csv(input_file)
