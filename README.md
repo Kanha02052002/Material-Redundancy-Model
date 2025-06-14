@@ -23,7 +23,7 @@ Material Redundancy/
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/Kanha02052002/Material-Redundancy-Model.git 
+git clone https://github.com/Kanha02052002/Material-Redundancy-Model.git
 cd repo Material-Redundancy-Model
 ```
 2. Install Requirements
