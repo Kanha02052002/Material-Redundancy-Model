@@ -8,3 +8,4 @@ torch
 sentence-transformers 
 nltk
 torch-geometric
+fuzzywuzzy
